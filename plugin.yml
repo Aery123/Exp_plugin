@@ -1,0 +1,22 @@
+name: NetherExp
+description: Exp system
+author: KiritoMC & Aery123
+api: 1.0.0
+version: 1.0.0
+main: NetherExp\Exp
+commands:
+  setgrade:
+    description: Set level
+    usage: /setgrade <ID> <leel>
+  health:
+    description: Set max health
+    usage: /health <ID> <health>
+  money:
+    description: Daily Sign
+    usage: /money
+  skills:
+    description: Get skills
+    usage: /skills <ID> <amount>
+  setskills:
+    description: Set skills points
+    usage: /setskills <player> <ponts>
